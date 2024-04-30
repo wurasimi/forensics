@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+<!-- card -->
+<div class="container">
+  <div class="row p-5 mx-auto">
+    {% for post in posts %}
+
+    <div class="card  m-4" style="width: 18rem; height:430px;">
+      <img src="{{post.image.url}}" class="card-img-top mt-1 h-50" alt="..." style:width:200px; height:150px;>
+      <div class="card-body">
+        <h5 class="card-title text-start">{{post.title}}</h5>
+        <p class="card-text text-start">{{post.content}}</p>
+        <!-- <p class="card-text text-start" style="
+        text-decoration-line: line-through; color:red;">NGN60000</p> -->
+        <p class="card-text text-start">NGN{{post.price}}</p>
+        <div class="text-start">
+          <a href="{% url 'product-contact' %}" class="btn btn-dark">select this course</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+<!-- card -->
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg" style="background-color:#fff;">
+  <div class="container"> 
+    <a class="navbar-brand text-dark"  href="{% url 'product-home' %}"><h2 class="fw-900"><img src="{% static 'images/picc.png' %}" style="height: 60px; width: 60px; margin-right: 10px; "alt=""><span style="font-weight: bolder; color: #ac3133;">IAF</span></h2></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light">
+        <li class="nav-item">
+          <a class="nav-link active  text-dark" href="#aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active  text-dark" href="#services">Programmes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active  text-dark"  href="#faqs">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active  text-dark" href="{%  url 'product-item' %}">Our Courses</a>
+        </li>
+      </ul>
+       
+
+        <form class="d-flex p-3" role="search">
+          <a class="btn btn-outline-dark rounded-pill" type="submit" href="{%  url 'product-contact' %}">become a member</a>
+        </form>
+    </div>
+  </div>
+</nav>
+  

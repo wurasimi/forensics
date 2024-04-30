@@ -1,0 +1,415 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block main %}
+
+
+
+<!-- carosuel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="{% static 'images/new.jpg' %}" alt="" style="filter: brightness(50%); width:100%; height: 800px;">
+          <div class="carousel-container">
+            <div class="container">
+              <div style=" margin-bottom:4em;">
+                <div class="pt-5 pb-3">
+                  <img src="{% static 'images/picc.png' %}" alt="" style="height:200px; width: 200px; ">
+                </div>
+                <h2 class="animate__animated animate__fadeInDown"><span
+                  style="color: #fff">International</span> <span
+                  style="color: #fff;">Academy</span> of <span
+                    style="color: #fff;">Forensics</span>(IAF)</h2>
+                <p class="animate__animated animate__fadeInUp">The International Academy of Forensics (IAF) is an independent organisation instituted to provide innovative research and development, and world-class professional career development in Forensic Investigation and Criminal Intelligence, with application to the administration of justice</p>
+                <a href="{% url 'product-contact' %}" class="btn btn-outline-light rounded-pill">become a member</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+</div>
+<!-- carosuel -->
+
+<!-- box -->
+<div class="container-fluid p-5">
+  <div class="row pt-5">
+    <div class="col-2">
+      <img src="{% static 'images/unilag.png' %}" class="img-fluid" alt="Image 1" style="height: 70px; width: 70px;">
+    </div>
+    <div class="col-2">
+      <img src="{% static 'images/IICFIP.png' %}" class="img-fluid" alt="Image 1" style="height: 70px; width: 70px;">
+    </div>
+    <div class="col-2">
+      <img src="{% static 'images/RAY.png' %}" class="img-fluid" alt="Image 2" style="height: 70px; width: 120px;">
+    </div>
+    <div class="col-2">
+      <img src="{% static 'images/daarr.png' %}" class="img-fluid" alt="Image 3" style="height: 70px; width: 70px;">
+    </div>
+    <div class="col-2">
+      <img src="{% static 'images/AIT.jpg' %}" class="img-fluid" alt="Image 4" style="height: 70px; width: 100px;">
+    </div>
+    <div class="col-2">
+      <img src="{% static 'images/van.jpg' %}" class="img-fluid" alt="Image 5" style="height: 70px; width: 100px;">
+    </div>
+  </div>
+</div>
+
+
+<!-- box -->
+
+<!-- services -->
+<h1 id="" class="text-center text-dark p-4"><span style="color: #ac3133;"></span> </h1>
+<div class="container">
+  <div class="row g-5 p-2">
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="eye-outline"></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">
+            Our vision
+          </h6>
+          <p class="card-text text-center">
+            To become a world-class Forensic Institution recognized for our pioneering research, cutting-edge technology, and unwavering commitment to excellence in the field. We aspire to foster a culture of innovation and collaboration, empowering our students and faculty to push the boundaries of forensic science. Through our dedication to integrity, ethics, and the pursuit of truth, we aim to shape the future of forensic investigation and make a lasting impact on society.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="sunny-outline"></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">Our mission</h6>
+          <p class="card-text text-center">
+            To advance knowledge and skills in Forensic Investigation and Criminal Intelligence, addressing the evolving demands of justice. Through comprehensive education and research, we empower individuals with the expertise needed to excel in their roles. Collaborating with law enforcement and legal entities, we drive innovation and progress in forensic science. Upholding the highest standards of integrity and ethics, we contribute to a more just and secure society.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="diamond-outline"></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">
+            Our core value
+          </h6>
+          <p class="card-text text-center">
+            Excellence in Forensics is our Hallmark. We are dedicated to upholding the highest standards of quality, precision, and professionalism in all aspects of our work. Through relentless pursuit of excellence, we strive to set the benchmark for forensic practice and education. Our commitment to excellence serves as the foundation of our institution, guiding our actions and decisions every step of the way. It is not just a goal but a fundamental principle that defines who we are.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+  </div>
+</div>
+
+
+<!-- about us -->
+<div id="aboutus" class="container">
+  <div class="row p-2">
+    <h1 class="text-center p-5">ABOUT <span style="color: #ac3133;">IAF</span></h1>
+    <div class="col-sm-12 col-md-6 col-lg-6" style="border-left:5px black solid ; height: 320px;">
+      The International Academy of Forensics (IAF) is an independent organisation instituted to provide innovative research and development, and world-class professional career development in Forensic Investigation and Criminal Intelligence, with application to the administration of justice. Globally, the Academy collaborates with high impact institutions to offer specialised training programmes in the field of knowledge. We equip our members with ranges of advanced knowledge, skills and tools to unravel real-life crime problems and resolve lingering uncertainties in the legal system.
+      Vitae voluptates veniam velit repudiandae id harum maiores sit corporis impedit dolores ut vero ab consequuntur,
+      ea voluptatibus perferendis voluptatum deserunt asperiores? Quis, laboriosam hic quibusdam consequatur ut error.
+      Doloremque officia
+      harum dicta natus.
+      Vitae voluptates veniam velit repudiandae id harum maiores sit corporis impedit dolores ut vero ab consequuntur,
+      ea voluptatibus perferendis voluptatum deserunt asperiores? Quis, laboriosam hic quibusdam consequatur ut error.
+    </div>
+    <div class="cols-sm-3 col-md-6 col-lg-6" style="overflow-x: hidden;">
+      <img src="{%  static 'images/crime.jpg' %}" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!-- services -->
+<h1 id="services" class="text-center text-dark p-5"><span style="color: #ac3133;">OUR</span> PROGRAMMES</h1>
+<div class="container">
+  <div class="row g-5 p-2">
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="search-outline"></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">
+            Forensics Investigation and Criminal Intelligence
+          </h6>
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Similique nam dolorum officiis, labore, nobis
+            minus
+          </p>
+          <div class="text-center">
+            <a href="{% url 'product-item' %}" class="btn btn-dark">check this course</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="bulb-outline"></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">Forensic Accounting and Criminal Intelligence</h6>
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sint porro alias asperiores sed officia
+            cupiditate.
+          </p>
+          <div class="text-center">
+            <a href="{% url 'product-item' %}" class="btn btn-dark">check this course</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="card col-12 border-0 shadow">
+        <div class="card-body">
+          <h1 class="card-title text-center">
+            <ion-icon name="laptop-outline" ></ion-icon>
+          </h1>
+          <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">
+            Digital forensics and cybersecurity
+          </h6>
+          <p class="card-text text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Laborum perferendis, molestiae optio rem.
+          </p>
+          <div class="text-center">
+            <div style="display: inline-block;">
+              
+              <a href="{% url 'product-item' %}" class="btn btn-dark" style="display: inline-block;">check this course</a>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+
+    <!-- <div class="container">
+      <div class="row g-5 p-2">
+        <div class="col-12 col-md-4">
+          <div class="card col-12 border-0 shadow">
+            <div class="card-body">
+              <h1 class="card-title text-center">
+                <ion-icon name="construct"></ion-icon>
+              </h1>
+              <h6 class="card-subtitle mb-2 text-center" style="color: #ac3133;">
+                Forensics in Psychology
+              </h6>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content. Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Similique nam dolorum officiis, labore, nobis
+                minus
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card col-12 border-0 shadow">
+            <div class="card-body">
+              <h1 class="card-title text-center">
+                <ion-icon name="cog"></ion-icon>
+              </h1>
+              <h6 class="card-subtitle mb-2 text-muted text-center">  Forensics in data</h6>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Sint porro alias asperiores sed officia
+                cupiditate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card col-12 border-0 shadow">
+            <div class="card-body">
+              <h1 class="card-title text-center">
+                <ion-icon name="build"></ion-icon>
+              </h1>
+              <h6 class="card-subtitle mb-2 text-muted text-center">
+                General Servicing
+              </h6>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Laborum perferendis, molestiae optio rem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    <!-- </div> -->
+    <!-- accordion start -->
+    <section id="faqs" class="p-2">
+      <div class="container">
+        <h2 class="text-center-mb-4 pt-5">Frequently<span style="color: #ac3133;"> Asked </span>Questions</h2>
+        <div class="accordion accordion-flush" id="#Questions">
+          <!-- Accordion Item One -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-One">
+                What Is The Qualification For Enrollment?
+              </button>
+            </h2>
+            <div id="Question-One" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#Questions">
+              <div class="accordion-body">
+                Minimum of National Diploma (ND) or Equivalent in any Discipline from any recognised Institution
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item One -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-One">
+                What Is The Training About?
+              </button>
+            </h2>
+            <div id="Question-One" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#Questions">
+              <div class="accordion-body">
+                Every career path has a unique roadmap. Thus, the Training is designed to deliver a strong and credible groundwork that emphasizes the practical aspects of scientific detection, investigation, resolution and prevention of cybercrimes and related criminal activities, by establishing incontrovertible evidence and testifying at trials.
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item One -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-One">
+                What Are The Certifications?
+              </button>
+            </h2>
+            <div id="Question-One" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#Questions">
+              <div class="accordion-body">
+                Professional Diploma Certificate by the CITS, University of Lagos Membership Certificate of the International Academy of Forensics (IAF)
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item Two -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-Two">
+                How Much Is The Application Form/Tuition Fees? 
+              </button>
+            </h2>
+            <div id="Question-Two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Application Form / Tuition Fees: N10,000/N500,000
+                Bank Account Details: UNILAG Consult, A/C. No.: 2029937936, First Bank of Nigeria
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item Three -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-Three">
+                What Do I Need To Know?
+              </button>
+            </h2>
+            <div id="Question-Three" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                It is a training programme aimed at delivering a strong and credible groundwork that emphasizes the practical aspects of scientific detection, investigation, resolution and prevention of cybercrimes and related criminal activities, by establishing incontrovertible evidence and testifying at trials.
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item Four -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Question-Four">
+                How Do I Pay?
+              </button>
+            </h2>
+            <div id="Question-Four" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Bank Account Details: UNILAG Consult, A/C. No.: 2029937936, First Bank of Nigeria
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- contact & Map start -->
+          <section class="p-2 mt-5">
+            <div class="container">
+              <div class="row g-3 pt-5">
+                <div class="col-md">
+                  <div class="">
+                    <h2 class="ms-4 mb-4">CONTACT <span style="color: #ac3133;">INFORMATION</span></h2>
+                    <ul class="list-group-flush-lead" style="margin-right: 5em">
+                      <li class="list-group-item">
+                        <span class="fw-bold">Main Location :</span> Forensics Office, 2nd Floor, Unilag Consult Building, By First Bank, DLI/ISL Roundabout, University of Lagos Campus, Akoka, Yaba, Lagos, Nigeria, Africa
+                      </li>
+                      <hr />
+                      <li class="list-group-item">
+                        <span class="fw-bold">Enquiry Phone :</span>: +23480 3821 1452
+                      </li>
+                      <hr />
+                      <li class="list-group-item">
+                        <span class="fw-bold">Attendant Phone :</span> : (+234)80 3821 1452
+                      </li>
+                      <hr />
+                      <li class="list-group-item">
+                        <span class="fw-bold">Enquiry Email :</span>
+                        info@forensicsacademy.org
+                      </li>
+                      <hr />
+                      
+                      <li class="list-group-item">
+                        <span class="fw-bold">Website :</span>
+                        https//www.forensicsacademy.org
+                      </li>
+                      <hr />
+                    </ul>
+                  </div>
+
+                </div>
+                <div class="col-md">
+                  <iframe
+                    src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15850.06269786396!2d3.2282081!3d6.7067390499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b984154b3ab9d%3A0x7b77f8f36ffbc3f2!2sRubee%20Medical%20Centre%20Ltd!5e0!3m2!1sen!2sng!4v1659960236231!5m2!1sen!2sng "
+                    width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- contact & Map start -->
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+{% endblock %}

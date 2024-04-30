@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Enquiry PAGE{% endblock title %}
+{% block main %}
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="m-4">
+      <div class="card text-start text-bg-light col-11 col-md-10 col-lg-8 mx-auto">
+        <div class="card-header">
+          <h1 class="my-3">Become a Member</h1>
+        </div>
+        <div class="card-body rounded-bottom">
+
+          <form action="" method="post">
+            {% csrf_token %}
+
+
+            <div class="mb-3">
+
+              {{form|crispy}}
+            </div>
+
+          
+
+            <input type="submit" class="btn btn-outline-dark" value="SEND">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
